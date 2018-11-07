@@ -34,4 +34,26 @@ Resistors x6 (1k)
 9 volts battery connector x1 (same for both testers)
 Switch x1 (same for both testers)
 Connecting wires 
+-----------------------------------------------------------------------------------------
+1. Usage scenario 
 
+DMX tester tool:
+1. Paspaudus prietaso jungiklį, įsijungs OLED ekranas su užrašu "Insert addr"
+2. adresas bus įvedamas trimis mygtukais 
+#1 - simtai (mygtuko reikšmės nuo 0 iki 5) vienas paspaudimas +1 vertė ekrane.
+#2 - dešimtys (mygtuko reikšmės nuo 0 iki 9)  vienas paspaudimas +1 vertė ekrane.
+#3 - vienetai (mygtuko reikšmės nuo 0 iki 9)  vienas paspaudimas +1 vertė ekrane.
+Spaudžiant vieną iš trijų mygtukų vertė ekrane keisis pagal paspaudimus.
+SET: #1 #2 #3
+3. Surinkus norima adresą ketvirtasis mygtukas "enter" pradės testavimą. Ekrane atsiras užrašas ADDR:(adreso numeris) 
+Bus testuojami 3 sekantys kanalai nuo to kanalo, kuris buvo įvestas.
+4. Vėl paspaudus "enter" mygtuką testavimas bus sustabdytas. Ekrane bus rodoma -  SET:"paskutinė įvesta vertė"
+5. Išungus prietaisą bet kurioje stadijoje ir vėl jį įjungus jis startuos nuo 0 adreso su užrašu "insert addr"
+
+DMX laidų testeris:
+1. Įjungus prietaisą su jungikliu visi 6 indikaciniai LED isijungs 2 sekundems. ir paskui išsijungs.
+2. Nuo to momento kai gaminys įjungtas jis nuolatos kartos tris programas:
+#1 - Atskirai tikrins XLR pin1, pin2, pin3 
+Jei per pin1 signalas praeina LED
+#2 - 
+#3 - 
