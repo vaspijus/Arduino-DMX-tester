@@ -277,17 +277,9 @@ Wire Wire Line
 	3700 5400 3700 5300
 Connection ~ 3700 5300
 Wire Wire Line
-	5050 2700 4350 2700
-Wire Wire Line
-	4350 2700 4350 2500
-Wire Wire Line
 	5050 2800 4700 2800
 Wire Wire Line
 	4700 2800 4700 3100
-Wire Wire Line
-	5050 2900 4400 2900
-Wire Wire Line
-	4400 2900 4400 2800
 Wire Wire Line
 	5650 4300 5550 4300
 Connection ~ 5650 4300
@@ -304,10 +296,6 @@ Wire Notes Line
 	3300 500  3300 1050
 Wire Wire Line
 	5550 3900 5550 4300
-Wire Wire Line
-	4350 2500 3800 2500
-Wire Wire Line
-	3800 2500 3800 2800
 Wire Wire Line
 	4700 3100 4100 3100
 Text Label 6000 800  0    50   ~ 0
@@ -368,8 +356,6 @@ Connection ~ 3700 3550
 Wire Wire Line
 	3700 3550 3700 3900
 Wire Wire Line
-	4100 1600 4550 1600
-Wire Wire Line
 	5550 5400 5550 5500
 Wire Wire Line
 	4400 1900 4500 1900
@@ -380,10 +366,6 @@ Wire Wire Line
 Wire Wire Line
 	3700 2350 3700 3100
 Connection ~ 3700 3100
-Wire Wire Line
-	4100 2200 4100 2400
-Wire Wire Line
-	4100 2400 4450 2400
 $Comp
 L pspice:DIODE D7
 U 1 1 5BFC56E1
@@ -396,9 +378,25 @@ F 3 "~" H 5450 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4550 1600 4550 2400
-Wire Wire Line
 	5450 1400 5450 1150
 Text Notes 4450 600  0    50   ~ 0
 Nemontuojama į PCB\n
+Wire Wire Line
+	3650 2400 3650 1600
+Wire Wire Line
+	3650 1600 4100 1600
+Wire Wire Line
+	3650 2400 4450 2400
+Wire Wire Line
+	4550 2400 4550 2200
+Wire Wire Line
+	4550 2200 4100 2200
+Wire Wire Line
+	5050 2700 4400 2700
+Wire Wire Line
+	4400 2700 4400 2800
+Wire Wire Line
+	5050 2900 3800 2900
+Wire Wire Line
+	3800 2900 3800 2800
 $EndSCHEMATC
